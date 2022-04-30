@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border: 4px solid black;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.header {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  color: #777;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 30px 0px 15px;
+}
+
+.list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.cart-button {
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  border-top: 4px solid black;
+}
+
+.cart-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
