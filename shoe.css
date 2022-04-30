@@ -8,67 +8,119 @@ body {
   line-height: 1.4;
 }
 
-article {
+/* PRODUCT */
+.product {
   border: 4px solid black;
-}
-
-.container {
-  width: 800px;
+  width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
-.header {
-  background-color: #f7f7f7;
-  text-transform: uppercase;
+.product-title {
   text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
   padding: 15px;
 }
 
+/* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
 }
 
 .shipping {
-  color: #777;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 15px;
+  color: #777;
+  margin-bottom: 20px;
 }
 
-a:link,
-a:visited {
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+
+  /*   width: 40px;
+  text-align: center; */
+}
+
+.more-info:link,
+.more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
-.product-details {
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
+}
+
+/* PRODUCT DETAILS */
+.details-title {
   text-transform: uppercase;
   font-size: 16px;
-  margin: 30px 0px 15px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
-.list {
+.details-list {
   list-style: square;
   margin-left: 20px;
 }
 
-.list li {
+.details-list li {
   margin-bottom: 10px;
 }
 
-.cart-button {
-  font-size: 20px;
+/* BUTTON */
+.add-cart {
+  background-color: #000;
   border: none;
-  width: 100%;
-  background-color: black;
-  color: white;
+  color: #fff;
+  font-size: 20px;
   text-transform: uppercase;
+  cursor: pointer;
   padding: 15px;
+  width: 100%;
   border-top: 4px solid black;
 }
 
-.cart-button:hover {
-  background-color: white;
-  color: black;
-  cursor: pointer;
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
 }
