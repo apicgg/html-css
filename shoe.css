@@ -9,10 +9,10 @@ body {
   line-height: 1.4;
 }
 
-.container {
+/* .container {
   display: flex;
   gap: 40px;
-}
+} */
 
 /* PRODUCT */
 .product {
@@ -119,6 +119,7 @@ body {
 .details-list li {
   margin-bottom: 10px;
 }
+
 .product-details {
   flex: 1;
 }
@@ -138,9 +139,20 @@ body {
   padding: 15px;
   width: 100%;
   border-top: 4px solid black;
+  grid-column: 1 / -1;
 }
 
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+.product-title {
+  grid-column: 1 / -1;
 }
